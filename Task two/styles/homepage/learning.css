@@ -1,0 +1,30 @@
+.start-learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    right: 0;
+    background-color: rgb(96, 152, 178);
+    height: 100%;
+    padding: 40px;
+}
+
+.quote-learning {
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(4, 1, 0);
+}
+
+.start-learning-button {
+    font-family: Exo;
+    font-size: 25px;
+    font-weight: bold;
+    width: 320px;
+    margin-top: 25px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border: none;
+    border-radius: 18px;
+}
