@@ -1,0 +1,147 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: "Baloo Bhai 2", cursive;
+background: url(https://i.postimg.cc/KzPQXFm4/Boxing-girl.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position:center;
+color: white;
+}
+
+.left {
+display: inline-block;
+position: absolute;
+left: 20px;
+top: 28px;
+
+}
+.left img {
+width: 96px;
+filter: invert(100%);
+}
+.left div {
+line-height: 5px;
+font-size: 18px;
+text-align: center;
+}
+.right button{
+    margin: 5px;
+}
+.right {
+display: inline-block;
+position: absolute;
+right: 36px;
+top: 37px;
+}
+.mid {
+display: block;
+width: 44%;
+margin: 50px auto 0;
+/* border: 2px solid rgb(20, 72, 185); */
+}
+.navbar {
+display: inline-block;
+}
+.navbar li {
+display: inline-block;
+font-size: 20px;
+}
+.navbar li a {
+color: white;
+text-decoration: none;
+list-style: none;
+padding: 13px 20px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+text-decoration: underline;
+color: gray;
+}
+.btn {
+font-family: "Baloo Bhai 2", cursive;
+
+color: white;
+background-color: black;
+padding: 3px 4px;
+border: 2px solid rgb(241, 241, 241);
+border-radius: 10px;
+font-size: 14px;
+cursor: pointer;
+}
+.btn:hover {
+background: rgb(73, 73, 73);
+}
+.cont {
+    border: 2px solid white;
+    margin: 50px 20px;
+    padding: 35px;
+    border-radius: 20px;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+}
+.formgroup input {
+font-family: "Baloo Bhai 2", cursive;
+margin: 10px auto;
+text-align: center;
+display: block;
+width: 100%;
+border-radius: 10px;
+padding: 10px;
+font-size: 19px;
+}
+.cont h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.cont button {
+display: block;
+width: 100%;
+margin: 10px auto;
+padding: 10px;
+}
+@media (max-width: 768px) {
+    .left {
+      position: static;
+      display: block;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .mid {
+      width: 90%;
+    }
+    .right {
+      position: static;
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .navbar li {
+      display: block;
+      margin: 10px 0;
+    }
+    .cont {
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .navbar li a {
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+    .cont {
+      width: 100%;
+      padding: 20px;
+    }
+    .formgroup input {
+      font-size: 16px;
+    }
+  }
